@@ -1,0 +1,8 @@
+brew "git"
+brew "git-lfs"
+brew "gh"
+brew "uv"
+brew "node"
+brew "ffmpeg"
+brew "poppler"
+cask "google-chrome"

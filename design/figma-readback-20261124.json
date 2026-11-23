@@ -1,0 +1,680 @@
+{
+  "pages": [
+    {
+      "pageId": "2:2",
+      "name": "01 · Website · Wide & Mobile",
+      "roots": [
+        {
+          "id": "61:2",
+          "name": "官网最终版·桌面 · 当前开发基准",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 10509.3125
+        },
+        {
+          "id": "62:2",
+          "name": "官网最终版·手机 · 当前开发基准",
+          "type": "FRAME",
+          "width": 390,
+          "height": 12942.203125
+        },
+        {
+          "id": "63:2",
+          "name": "首屏滚动关键帧",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 860
+        },
+        {
+          "id": "182:19",
+          "name": "普莱好运签 · 桌面弹窗",
+          "type": "FRAME",
+          "width": 760,
+          "height": 738.03125
+        },
+        {
+          "id": "182:20",
+          "name": "30 秒配对挑战 · 桌面弹窗",
+          "type": "FRAME",
+          "width": 540,
+          "height": 567.265625
+        },
+        {
+          "id": "182:813",
+          "name": "导航菜单 · 手机",
+          "type": "FRAME",
+          "width": 342,
+          "height": 687
+        },
+        {
+          "id": "195:125",
+          "name": "官网 · 30 秒配对挑战 / 手机弹窗",
+          "type": "FRAME",
+          "width": 352,
+          "height": 461.0625
+        }
+      ]
+    },
+    {
+      "pageId": "112:11",
+      "name": "官网最终版·内页·桌面",
+      "roots": [
+        {
+          "id": "118:37",
+          "name": "普莱 AI 工作室 · 桌面",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 1998.890625
+        },
+        {
+          "id": "119:11",
+          "name": "NewCoin · 桌面",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 4330
+        },
+        {
+          "id": "119:335",
+          "name": "合作 · 桌面",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 1911.96875
+        },
+        {
+          "id": "119:573",
+          "name": "经典棋牌 · 桌面",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 5252
+        },
+        {
+          "id": "121:230",
+          "name": "奇幻塔防 · 桌面",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 5345
+        },
+        {
+          "id": "122:11",
+          "name": "小游戏 · 桌面",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 4900.671875
+        },
+        {
+          "id": "122:230",
+          "name": "普莱好运签 · 桌面",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 2821
+        },
+        {
+          "id": "123:11",
+          "name": "关于 · 桌面",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 6835
+        },
+        {
+          "id": "167:21",
+          "name": "普莱跳一跳 · 桌面",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 1699.984375
+        },
+        {
+          "id": "167:29",
+          "name": "付款 · ready · 桌面 · PLAI v13",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "id": "236:49",
+          "name": "付款 · pending · 桌面 · PLAI v13",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 1169
+        },
+        {
+          "id": "372:49",
+          "name": "NewPlay v15 / 普莱好运签 / 分层解读结果 / 桌面",
+          "type": "FRAME",
+          "width": 1264.34375,
+          "height": 1124.453125
+        },
+        {
+          "id": "602:126",
+          "name": "躺平发育 · 桌面",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 4120
+        }
+      ]
+    },
+    {
+      "pageId": "112:12",
+      "name": "官网最终版·内页·手机",
+      "roots": [
+        {
+          "id": "112:13",
+          "name": "普莱 AI 工作室 · 手机",
+          "type": "FRAME",
+          "width": 390,
+          "height": 2939.40625
+        },
+        {
+          "id": "119:159",
+          "name": "NewCoin · 手机",
+          "type": "FRAME",
+          "width": 390,
+          "height": 5534
+        },
+        {
+          "id": "119:453",
+          "name": "合作 · 手机",
+          "type": "FRAME",
+          "width": 390,
+          "height": 2629.671875
+        },
+        {
+          "id": "121:92",
+          "name": "经典棋牌 · 手机",
+          "type": "FRAME",
+          "width": 390,
+          "height": 6943
+        },
+        {
+          "id": "121:362",
+          "name": "奇幻塔防 · 手机",
+          "type": "FRAME",
+          "width": 390,
+          "height": 6961
+        },
+        {
+          "id": "122:120",
+          "name": "小游戏 · 手机",
+          "type": "FRAME",
+          "width": 390,
+          "height": 5696.078125
+        },
+        {
+          "id": "122:309",
+          "name": "普莱好运签 · 手机",
+          "type": "FRAME",
+          "width": 390,
+          "height": 3843
+        },
+        {
+          "id": "123:132",
+          "name": "关于 · 手机",
+          "type": "FRAME",
+          "width": 390,
+          "height": 5778
+        },
+        {
+          "id": "167:23",
+          "name": "普莱跳一跳 · 手机",
+          "type": "FRAME",
+          "width": 390,
+          "height": 2558.59375
+        },
+        {
+          "id": "167:31",
+          "name": "付款 · ready · 手机 · PLAI v13",
+          "type": "FRAME",
+          "width": 390,
+          "height": 873
+        },
+        {
+          "id": "182:835",
+          "name": "导航菜单 · 手机",
+          "type": "FRAME",
+          "width": 342,
+          "height": 687
+        },
+        {
+          "id": "237:59",
+          "name": "付款 · pending · 手机 · PLAI v13",
+          "type": "FRAME",
+          "width": 390,
+          "height": 1169
+        },
+        {
+          "id": "378:125",
+          "name": "NewPlay v15 / 普莱好运签 / 分层解读结果 / 手机",
+          "type": "FRAME",
+          "width": 346,
+          "height": 2024.4375
+        },
+        {
+          "id": "602:252",
+          "name": "躺平发育 · 手机",
+          "type": "FRAME",
+          "width": 390,
+          "height": 5740
+        }
+      ]
+    },
+    {
+      "pageId": "434:29",
+      "name": "动效组件 · 原生交互状态",
+      "roots": [
+        {
+          "id": "434:407",
+          "name": "首页立体动态 · 桌面 · 动效状态",
+          "type": "COMPONENT_SET",
+          "width": 7474,
+          "height": 990
+        },
+        {
+          "id": "435:475",
+          "name": "首页立体动态 · 手机 · 动效状态",
+          "type": "COMPONENT_SET",
+          "width": 2224,
+          "height": 1440
+        },
+        {
+          "id": "435:849",
+          "name": "NewCoin立体动态 · 桌面 · 动效状态",
+          "type": "COMPONENT_SET",
+          "width": 7474,
+          "height": 830
+        },
+        {
+          "id": "435:1213",
+          "name": "NewCoin立体动态 · 手机 · 动效状态",
+          "type": "COMPONENT_SET",
+          "width": 2224,
+          "height": 1070
+        },
+        {
+          "id": "436:420",
+          "name": "好运签动态演出 · 桌面 · 动效状态",
+          "type": "COMPONENT_SET",
+          "width": 11944,
+          "height": 810
+        },
+        {
+          "id": "436:894",
+          "name": "好运签动态演出 · 手机 · 动效状态",
+          "type": "COMPONENT_SET",
+          "width": 3544,
+          "height": 970
+        },
+        {
+          "id": "438:198",
+          "name": "塔防卡片 · 桌面 · 交互状态",
+          "type": "COMPONENT_SET",
+          "width": 4335,
+          "height": 690
+        },
+        {
+          "id": "438:234",
+          "name": "2048卡片 · 桌面 · 交互状态",
+          "type": "COMPONENT_SET",
+          "width": 2210,
+          "height": 630
+        },
+        {
+          "id": "438:272",
+          "name": "跳跃卡片 · 桌面 · 交互状态",
+          "type": "COMPONENT_SET",
+          "width": 3803.75,
+          "height": 630
+        },
+        {
+          "id": "438:311",
+          "name": "棋牌卡片 · 桌面 · 交互状态",
+          "type": "COMPONENT_SET",
+          "width": 2741.25,
+          "height": 630
+        },
+        {
+          "id": "438:348",
+          "name": "塔防卡片 · 手机 · 交互状态",
+          "type": "COMPONENT_SET",
+          "width": 1970,
+          "height": 570
+        },
+        {
+          "id": "438:384",
+          "name": "2048卡片 · 手机 · 交互状态",
+          "type": "COMPONENT_SET",
+          "width": 1827.5,
+          "height": 520
+        },
+        {
+          "id": "438:426",
+          "name": "跳跃卡片 · 手机 · 交互状态",
+          "type": "COMPONENT_SET",
+          "width": 1970,
+          "height": 500
+        },
+        {
+          "id": "438:467",
+          "name": "棋牌卡片 · 手机 · 交互状态",
+          "type": "COMPONENT_SET",
+          "width": 1827.5,
+          "height": 500
+        },
+        {
+          "id": "449:442",
+          "name": "平台介绍 · 桌面 · 潮玩拼贴 · 分区动效",
+          "type": "COMPONENT_SET",
+          "width": 7449,
+          "height": 2088
+        },
+        {
+          "id": "449:668",
+          "name": "平台介绍 · 手机 · 潮玩拼贴 · 分区动效",
+          "type": "COMPONENT_SET",
+          "width": 2199,
+          "height": 3122
+        },
+        {
+          "id": "449:859",
+          "name": "AI Agent · 桌面 · 液态光幕 · 分区动效",
+          "type": "COMPONENT_SET",
+          "width": 7449,
+          "height": 1404.125
+        },
+        {
+          "id": "449:1043",
+          "name": "AI Agent · 手机 · 液态光幕 · 分区动效",
+          "type": "COMPONENT_SET",
+          "width": 2199,
+          "height": 919.953125
+        },
+        {
+          "id": "449:1307",
+          "name": "普莱小队 · 桌面 · 角色接力 · 分区动效",
+          "type": "COMPONENT_SET",
+          "width": 7449,
+          "height": 1049.625
+        },
+        {
+          "id": "449:1587",
+          "name": "普莱小队 · 手机 · 角色接力 · 分区动效",
+          "type": "COMPONENT_SET",
+          "width": 2199,
+          "height": 1335.8125
+        },
+        {
+          "id": "449:1727",
+          "name": "造型工坊 · 桌面 · 镜头与色卡 · 分区动效",
+          "type": "COMPONENT_SET",
+          "width": 3274.00048828125,
+          "height": 755.1094970703125
+        },
+        {
+          "id": "449:1839",
+          "name": "造型工坊 · 手机 · 镜头与色卡 · 分区动效",
+          "type": "COMPONENT_SET",
+          "width": 1908.9993896484375,
+          "height": 513.7342529296875
+        },
+        {
+          "id": "449:2026",
+          "name": "音乐工坊 · 桌面 · 律动声场 · 分区动效",
+          "type": "COMPONENT_SET",
+          "width": 3274.00048828125,
+          "height": 764.9219970703125
+        },
+        {
+          "id": "449:2228",
+          "name": "音乐工坊 · 手机 · 律动声场 · 分区动效",
+          "type": "COMPONENT_SET",
+          "width": 1908.9993896484375,
+          "height": 519.3905029296875
+        },
+        {
+          "id": "449:2345",
+          "name": "品牌结尾 · 桌面 · 星环呼应 · 分区动效",
+          "type": "COMPONENT_SET",
+          "width": 7449,
+          "height": 632.84375
+        },
+        {
+          "id": "449:2450",
+          "name": "品牌结尾 · 手机 · 星环呼应 · 分区动效",
+          "type": "COMPONENT_SET",
+          "width": 2199,
+          "height": 492.296875
+        },
+        {
+          "id": "500:731",
+          "name": "Core Team · 四职位竞猜 · 桌面",
+          "type": "COMPONENT_SET",
+          "width": 3894,
+          "height": 3055
+        },
+        {
+          "id": "501:1688",
+          "name": "Core Team · 四职位竞猜 · 手机",
+          "type": "COMPONENT_SET",
+          "width": 2406,
+          "height": 3055
+        }
+      ]
+    },
+    {
+      "pageId": "438:482",
+      "name": "动态原型 · 桌面",
+      "roots": [
+        {
+          "id": "438:857",
+          "name": "首页 · 动态播放",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "id": "438:1382",
+          "name": "NewCoin · 动态播放",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "id": "438:1734",
+          "name": "好运签 · 动态播放",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "id": "609:1120",
+          "name": "躺平发育 · 桌面交互原型",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "pageId": "438:1778",
+      "name": "动态原型 · 手机",
+      "roots": [
+        {
+          "id": "438:2148",
+          "name": "首页 · 动态播放",
+          "type": "FRAME",
+          "width": 390,
+          "height": 950
+        },
+        {
+          "id": "438:2669",
+          "name": "NewCoin · 动态播放",
+          "type": "FRAME",
+          "width": 390,
+          "height": 950
+        },
+        {
+          "id": "438:3011",
+          "name": "好运签 · 动态播放",
+          "type": "FRAME",
+          "width": 390,
+          "height": 950
+        },
+        {
+          "id": "609:2101",
+          "name": "躺平发育 · 手机交互原型",
+          "type": "FRAME",
+          "width": 390,
+          "height": 950
+        }
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "id": "659:221",
+      "name": "G · 抖音美好体 Bold · 中文标题真实字形",
+      "type": "FRAME",
+      "width": 690,
+      "height": 333,
+      "visible": true,
+      "text": null,
+      "font": null,
+      "fontSize": null,
+      "lineHeight": null,
+      "typography": "{\"family\":\"DouyinSans\",\"style\":\"Bold\",\"fontSize\":100,\"letterSpacingPixels\":-2.08,\"lineHeightPixels\":112.32000000000001,\"rendering\":\"editable-vector-outlines\",\"text\":\"年轻人的\\n数字娱乐空间。\",\"sourceSha256\":\"fbecfacdfac33982774e301073a8d357a09c698cd3134bb6ddec0f5bfc268fa1\",\"sourceUrl\":\"https://github.com/bytedance/fonts\"}"
+    },
+    {
+      "id": "659:233",
+      "name": "G · 抖音美好体 Bold · 中文标题真实字形",
+      "type": "FRAME",
+      "width": 358,
+      "height": 274,
+      "visible": true,
+      "text": null,
+      "font": null,
+      "fontSize": null,
+      "lineHeight": null,
+      "typography": "{\"family\":\"DouyinSans\",\"style\":\"Bold\",\"fontSize\":64,\"letterSpacingPixels\":-1.28,\"lineHeightPixels\":69.12,\"rendering\":\"editable-vector-outlines\",\"text\":\"年轻人的\\n数字娱乐\\n空间。\",\"sourceSha256\":\"fbecfacdfac33982774e301073a8d357a09c698cd3134bb6ddec0f5bfc268fa1\",\"sourceUrl\":\"https://github.com/bytedance/fonts\"}"
+    },
+    {
+      "id": "658:222",
+      "name": "NewPlay · 保留原生英文标题",
+      "type": "TEXT",
+      "width": 690,
+      "height": 112,
+      "visible": true,
+      "text": "NewPlay，",
+      "font": {
+        "family": "Space Grotesk",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 104,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 108.00000429153442
+      },
+      "typography": ""
+    },
+    {
+      "id": "658:236",
+      "name": "NewPlay · 保留原生英文标题",
+      "type": "TEXT",
+      "width": 358,
+      "height": 69,
+      "visible": true,
+      "text": "NewPlay，",
+      "font": {
+        "family": "Space Grotesk",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 64,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 108.00000429153442
+      },
+      "typography": ""
+    },
+    {
+      "id": "604:128",
+      "name": "Game title",
+      "type": "TEXT",
+      "width": 600,
+      "height": 136,
+      "visible": true,
+      "text": "躺平发育",
+      "font": {
+        "family": "ZCOOL KuaiLe",
+        "style": "Regular"
+      },
+      "fontSize": 124,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 110.00000238418579
+      },
+      "typography": ""
+    },
+    {
+      "id": "604:276",
+      "name": "Game title",
+      "type": "TEXT",
+      "width": 350,
+      "height": 97,
+      "visible": true,
+      "text": "躺平发育",
+      "font": {
+        "family": "ZCOOL KuaiLe",
+        "style": "Regular"
+      },
+      "fontSize": 88,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 110.00000238418579
+      },
+      "typography": ""
+    },
+    {
+      "id": "609:950",
+      "name": "Game title",
+      "type": "TEXT",
+      "width": 600,
+      "height": 136,
+      "visible": true,
+      "text": "躺平发育",
+      "font": {
+        "family": "ZCOOL KuaiLe",
+        "style": "Regular"
+      },
+      "fontSize": 124,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 110.00000238418579
+      },
+      "typography": ""
+    },
+    {
+      "id": "609:1371",
+      "name": "Game title",
+      "type": "TEXT",
+      "width": 350,
+      "height": 97,
+      "visible": true,
+      "text": "躺平发育",
+      "font": {
+        "family": "ZCOOL KuaiLe",
+        "style": "Regular"
+      },
+      "fontSize": 88,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 110.00000238418579
+      },
+      "typography": ""
+    }
+  ],
+  "createdNodeIds": [],
+  "mutatedNodeIds": []
+}

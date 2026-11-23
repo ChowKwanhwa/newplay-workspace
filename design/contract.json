@@ -1,0 +1,385 @@
+{
+  "schema": 1,
+  "verifiedAt": "2026-11-24",
+  "purpose": "Internal portable implementation baseline, not a production website or new design approval.",
+  "fileKey": "gtNhFwsEyHWKZU6dNWXsiZ",
+  "authority": "User-approved G-home/F-game combination and read-only Figma verification; refresh exact target nodes before coding.",
+  "fonts": {
+    "home": {
+      "path": "design/fonts/DouyinSansBold.ttf",
+      "license": "design/fonts/DouyinSans-OFL.txt",
+      "family": "DouyinSans",
+      "style": "Bold",
+      "postscriptName": "DOUYINSANSBOLD-GB",
+      "cssFamily": "NewPlay Douyin",
+      "cssWeight": 400,
+      "requiredText": "年轻人的数字娱乐空间。",
+      "source": "https://github.com/bytedance/fonts",
+      "note": "Original Bold outline has OS/2 weight 400. Use the unmodified file at declared weight 400; no synthetic bold."
+    },
+    "game": {
+      "path": "design/fonts/ZCOOLKuaiLe-Regular.ttf",
+      "license": "design/fonts/ZCOOLKuaiLe-OFL.txt",
+      "family": "ZCOOL KuaiLe",
+      "style": "Regular",
+      "postscriptName": "ZCOOLKuaiLe-Regular",
+      "cssFamily": "NewPlay KuaiLe",
+      "cssWeight": 400,
+      "requiredText": "躺平发育",
+      "source": "https://github.com/google/fonts/tree/main/ofl/zcoolkuaile"
+    },
+    "latin": {
+      "path": "design/fonts/SpaceGrotesk-wght.ttf",
+      "license": "design/fonts/SpaceGrotesk-OFL.txt",
+      "family": "Space Grotesk",
+      "postscriptName": "SpaceGrotesk-Light",
+      "cssFamily": "NewPlay Space",
+      "cssWeight": 700,
+      "axisRange": [
+        300,
+        700
+      ],
+      "requiredText": "NewPlay",
+      "source": "https://github.com/google/fonts/tree/main/ofl/spacegrotesk",
+      "note": "Variable font name table says Light; render Latin at wght 700. Fullwidth comma is not in this font, use bundled Noto SC as explicit punctuation fallback and compare Figma."
+    },
+    "body": {
+      "path": "design/fonts/noto-sans-sc-full.ttf",
+      "license": "design/fonts/NotoSansSC-OFL.txt",
+      "family": "Noto Sans SC",
+      "postscriptName": "NotoSansSC-Thin",
+      "cssFamily": "NewPlay Noto SC",
+      "axisRange": [
+        100,
+        900
+      ],
+      "requiredText": "人已躺平，防线拉满。",
+      "source": "https://github.com/google/fonts/tree/main/ofl/notosanssc",
+      "note": "Variable font name table says Thin; do not force weight 100. Read actual target-node weights (commonly 400/500/700/900)."
+    }
+  },
+  "typography": {
+    "homeChinese": {
+      "fontId": "home",
+      "renderingInFigma": "editable-vector-outlines",
+      "metadataNamespace": "newplay",
+      "metadataKey": "typography",
+      "hiddenSourceIsAuthoritative": false,
+      "desktop": {
+        "nodeId": "659:221",
+        "fontSize": 100,
+        "lineHeight": 112.32,
+        "letterSpacing": -2.08,
+        "width": 690,
+        "height": 333,
+        "lines": [
+          "年轻人的",
+          "数字娱乐空间。"
+        ]
+      },
+      "mobile": {
+        "nodeId": "659:233",
+        "fontSize": 64,
+        "lineHeight": 69.12,
+        "letterSpacing": -1.28,
+        "width": 358,
+        "height": 274,
+        "lines": [
+          "年轻人的",
+          "数字娱乐",
+          "空间。"
+        ]
+      }
+    },
+    "homeLatin": {
+      "fontId": "latin",
+      "text": "NewPlay，",
+      "desktop": {
+        "nodeId": "658:222",
+        "fontSize": 104,
+        "lineHeight": 112.32
+      },
+      "mobile": {
+        "nodeId": "658:236",
+        "fontSize": 64,
+        "lineHeight": 69.12
+      }
+    },
+    "gameTitle": {
+      "fontId": "game",
+      "text": "躺平发育",
+      "color": "#FFE04B",
+      "desktop": {
+        "nodeId": "604:128",
+        "prototypeNodeId": "609:950",
+        "fontSize": 124,
+        "lineHeightPercent": 110,
+        "width": 600,
+        "height": 136
+      },
+      "mobile": {
+        "nodeId": "604:276",
+        "prototypeNodeId": "609:1371",
+        "fontSize": 88,
+        "lineHeightPercent": 110,
+        "width": 350,
+        "height": 97
+      }
+    },
+    "body": {
+      "fontId": "body",
+      "weightPolicy": "Read each current Figma text node; never replace every heading with G or F."
+    }
+  },
+  "pages": {
+    "home": {
+      "desktop": "61:2",
+      "mobile": "62:2",
+      "desktopPrototype": "438:857",
+      "mobilePrototype": "438:2148"
+    },
+    "lieflat": {
+      "desktop": "602:126",
+      "mobile": "602:252",
+      "desktopPrototype": "609:1120",
+      "mobilePrototype": "609:2101",
+      "doNotUseLegacyFrames": [
+        "121:230",
+        "121:362"
+      ]
+    },
+    "newcoin": {
+      "desktop": "119:11",
+      "mobile": "119:159",
+      "desktopPrototype": "438:1382",
+      "mobilePrototype": "438:2669"
+    },
+    "fortune": {
+      "desktop": "122:230",
+      "mobile": "122:309",
+      "desktopResult": "372:49",
+      "mobileResult": "378:125",
+      "desktopPrototype": "438:1734",
+      "mobilePrototype": "438:3011"
+    },
+    "studio": {
+      "desktop": "118:37",
+      "mobile": "112:13"
+    },
+    "cooperation": {
+      "desktop": "119:335",
+      "mobile": "119:453"
+    },
+    "classic": {
+      "desktop": "119:573",
+      "mobile": "121:92"
+    },
+    "games": {
+      "desktop": "122:11",
+      "mobile": "122:120"
+    },
+    "about": {
+      "desktop": "123:11",
+      "mobile": "123:132"
+    },
+    "jump": {
+      "desktop": "167:21",
+      "mobile": "167:23"
+    },
+    "paymentReady": {
+      "desktop": "167:29",
+      "mobile": "167:31"
+    },
+    "paymentPending": {
+      "desktop": "236:49",
+      "mobile": "237:59"
+    }
+  },
+  "anchorViewports": {
+    "desktop": 1440,
+    "mobile": 390,
+    "policy": "These are reference widths, not approved CSS breakpoints. Derive intermediate behavior from both frames and verify 360/390/768/1024/1440; do not shrink the entire desktop page."
+  },
+  "colors": {
+    "homeKeyword": "#05289C",
+    "homeMarkerYellow": "#FFE44D",
+    "homeMarkerMint": "#A8F5D5",
+    "gameTitle": "#FFE04B",
+    "policy": "Only these verified title accents are locked here. Read other fills and exact gradient stops from current target nodes, not a newly invented palette."
+  },
+  "assets": {
+    "logo": {
+      "path": "design/assets/newplay-logo.png",
+      "transparent": true
+    },
+    "logoVector": {
+      "path": "design/assets/newplay-logo.svg"
+    },
+    "homePlai": {
+      "path": "design/assets/plai-hero-ice.png",
+      "transparent": false,
+      "note": "RGB ice-blue source, not a transparent cutout and not a 3D mesh."
+    },
+    "introPlai": {
+      "path": "design/assets/plai-intro-transparent.png",
+      "transparent": true
+    },
+    "agentPlai": {
+      "path": "design/assets/plai-agent-transparent.png",
+      "transparent": true
+    },
+    "lieflatHero": {
+      "path": "design/assets/lieflat-dorm-hero.jpg"
+    },
+    "mvPoster": {
+      "path": "design/assets/mv-poster.jpg"
+    }
+  },
+  "references": [
+    {
+      "path": "design/reference/home-desktop.png",
+      "nodeId": "438:857",
+      "includesReviewChrome": true
+    },
+    {
+      "path": "design/reference/home-mobile.png",
+      "nodeId": "438:2148",
+      "includesReviewChrome": true
+    },
+    {
+      "path": "design/reference/lieflat-desktop.png",
+      "nodeId": "609:1120",
+      "includesReviewChrome": false
+    },
+    {
+      "path": "design/reference/lieflat-mobile.png",
+      "nodeId": "609:2101",
+      "includesReviewChrome": false
+    }
+  ],
+  "boundaries": [
+    "Do not implement prototype review chrome as production navigation.",
+    "Home Chinese vectors encode the approved font; hidden old text fonts are not the design source.",
+    "Only home Chinese hero and lieflat hero titles use approved G/F; other titles require current-node inspection.",
+    "PNG depth/parallax is not a true interactive 3D model; no Meshy/GLB/rig is bundled.",
+    "Do not connect real payments, deduct NC, grant rewards, execute agents or write chain data from mock prototype flows.",
+    "Respect current role states and check remote design updates before implementation; do not resurrect withdrawn content."
+  ],
+  "files": [
+    {
+      "path": "design/README.md",
+      "bytes": 937,
+      "sha256": "197cd3c7cbdff4c2795238467062cf8d712ce5733fdcb55b05cd4151d72a7270"
+    },
+    {
+      "path": "design/assets/lieflat-dorm-hero.jpg",
+      "bytes": 411992,
+      "sha256": "08f0869257c43093250e65356873c02da7d8006ad12f5807be37d3e0fd680632"
+    },
+    {
+      "path": "design/assets/mv-poster.jpg",
+      "bytes": 132269,
+      "sha256": "f5816b6ef694492ef4f0e1aebb7f6368bdb15a3abbccca1687d3bfe1f8c7908e"
+    },
+    {
+      "path": "design/assets/newplay-logo.png",
+      "bytes": 175132,
+      "sha256": "c667c9b1c68c58a98f1e91776d9a1d4d13ce6e04d228e607cf982a7542d7c954"
+    },
+    {
+      "path": "design/assets/newplay-logo.svg",
+      "bytes": 29943,
+      "sha256": "cce4e1e2c62f4ff6ce9ce579a2dab924c059d154c2943dcf9b68dafb73bfa665"
+    },
+    {
+      "path": "design/assets/plai-agent-transparent.png",
+      "bytes": 1661274,
+      "sha256": "53c6ca4206f4772dff98a4666e12685bedf9ed747a5ef99f86c67588264e4a48"
+    },
+    {
+      "path": "design/assets/plai-hero-ice.png",
+      "bytes": 1373010,
+      "sha256": "04ee958a86cefe01e19fb0d4dcc3c4f45ae8c70c12826b54d8e2937f51fa4a7b"
+    },
+    {
+      "path": "design/assets/plai-intro-transparent.png",
+      "bytes": 1674828,
+      "sha256": "c2782ebe2764822e0fc7f1799cfc642a106a16277b58cb852000553325934711"
+    },
+    {
+      "path": "design/figma-readback-20261124.json",
+      "bytes": 17847,
+      "sha256": "e60cce8a8248361a59d5ed0475250e8c093732b269129e2f30c0592311d66378"
+    },
+    {
+      "path": "design/font-proof.html",
+      "bytes": 2226,
+      "sha256": "49eec2cfba3b0d1cd2687f2151f478333edd49816817868e6e8e33af6b4122ae"
+    },
+    {
+      "path": "design/fonts/DouyinSans-OFL.txt",
+      "bytes": 4455,
+      "sha256": "a6d5700a002ea32bcfbe3310253d603997683dac8ac63777e375d06c07c30ea6"
+    },
+    {
+      "path": "design/fonts/DouyinSansBold.ttf",
+      "bytes": 1919404,
+      "sha256": "fbecfacdfac33982774e301073a8d357a09c698cd3134bb6ddec0f5bfc268fa1"
+    },
+    {
+      "path": "design/fonts/NotoSansSC-OFL.txt",
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "design/fonts/SpaceGrotesk-OFL.txt",
+      "bytes": 4495,
+      "sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72"
+    },
+    {
+      "path": "design/fonts/SpaceGrotesk-wght.ttf",
+      "bytes": 136676,
+      "sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72"
+    },
+    {
+      "path": "design/fonts/ZCOOLKuaiLe-OFL.txt",
+      "bytes": 4398,
+      "sha256": "538078469839b4a2e7ad22bef4ebe41681a4e53749bb2a072144024f1d6d703d"
+    },
+    {
+      "path": "design/fonts/ZCOOLKuaiLe-Regular.ttf",
+      "bytes": 1514968,
+      "sha256": "812a6fc1fe54b6d73a419245c32dfeba8aa33104d5be90d1cf6af082007cb71d"
+    },
+    {
+      "path": "design/fonts/noto-sans-sc-full.ttf",
+      "bytes": 17772300,
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    },
+    {
+      "path": "design/fonts.css",
+      "bytes": 1479,
+      "sha256": "0a7c39512fa90553b3563b1da95fd99e034574b47d56fe8c6be0a22b657d2f1d"
+    },
+    {
+      "path": "design/reference/home-desktop.png",
+      "bytes": 888800,
+      "sha256": "21ffb7ba0fc8aacb218e8a4749c744b8407860742785eb2d8fe9086c6a7e7510"
+    },
+    {
+      "path": "design/reference/home-mobile.png",
+      "bytes": 96005,
+      "sha256": "f2e98f5822cbcd1db0f0a12717d928d200c68cc41e77827f7f7c6ab29d0ad625"
+    },
+    {
+      "path": "design/reference/lieflat-desktop.png",
+      "bytes": 1216199,
+      "sha256": "0f57d8a1d7c0fda91d400e5fc64282cafd95754d28566ada0a5a46e429a7f38d"
+    },
+    {
+      "path": "design/reference/lieflat-mobile.png",
+      "bytes": 260410,
+      "sha256": "fedd155fe141a890da0d772ff35fb57d00fd41c6fe2304171ee535e3f70bbecc"
+    }
+  ]
+}

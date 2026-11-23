@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NewPlay local typography check</title>
+  <link rel="stylesheet" href="./fonts.css">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; color: #112448; background: #f7f7f2; font-family: var(--np-font-body); font-synthesis: none; }
+    main { padding: 24px; }
+    p { font-size: 14px; }
+    .home { width: 690px; background: #d5e6ff; }
+    .home span { display: block; white-space: nowrap; }
+    .np-home-title-latin { font-size: 104px; line-height: 112.32px; letter-spacing: -2.08px; }
+    .np-home-title-zh { font-size: 100px; line-height: 112.32px; letter-spacing: -2.08px; color: var(--np-home-keyword); }
+    .np-game-title { width: 600px; font-size: 124px; line-height: 1.1; color: var(--np-game-title); background: #131131; white-space: nowrap; margin-top: 32px; }
+    .body-proof { font-size: 20px; font-weight: 700; }
+    @media (max-width: 600px) {
+      main { padding: 16px; }
+      .home { width: 358px; }
+      .np-home-title-latin, .np-home-title-zh { font-size: 64px; line-height: 69.12px; letter-spacing: -1.28px; }
+      .desktop-line { display: none !important; }
+      .np-game-title { width: 350px; font-size: 88px; }
+    }
+    @media (min-width: 601px) { .mobile-line { display: none !important; } }
+  </style>
+</head>
+<body>
+  <main>
+    <p>本地字体校验样张，不是官网页面。600px仅用于切换校验样本，不是官网断点规范。</p>
+    <section class="home">
+      <span class="np-home-title-latin"><span id="latin" style="display:inline">NewPlay</span><span style="display:inline">，</span></span>
+      <span id="home-first" class="np-home-title-zh">年轻人的</span>
+      <span id="home-last-desktop" class="np-home-title-zh desktop-line">数字娱乐空间。</span>
+      <span id="home-last-mobile" class="np-home-title-zh mobile-line">数字娱乐</span>
+      <span class="np-home-title-zh mobile-line">空间。</span>
+    </section>
+    <section id="game" class="np-game-title">躺平发育</section>
+    <p id="body-proof" class="body-proof">人已躺平，防线拉满。</p>
+  </main>
+</body>
+</html>

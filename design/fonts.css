@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "NewPlay Douyin";
+  src: url("./fonts/DouyinSansBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NewPlay KuaiLe";
+  src: url("./fonts/ZCOOLKuaiLe-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NewPlay Space";
+  src: url("./fonts/SpaceGrotesk-wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NewPlay Noto SC";
+  src: url("./fonts/noto-sans-sc-full.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+:root {
+  --np-font-home: "NewPlay Douyin", "NewPlay Noto SC", sans-serif;
+  --np-font-game: "NewPlay KuaiLe", "NewPlay Noto SC", sans-serif;
+  --np-font-latin: "NewPlay Space", "NewPlay Noto SC", sans-serif;
+  --np-font-body: "NewPlay Noto SC", sans-serif;
+  --np-home-keyword: #05289c;
+  --np-home-marker-yellow: #ffe44d;
+  --np-home-marker-mint: #a8f5d5;
+  --np-game-title: #ffe04b;
+}
+
+.np-home-title-zh {
+  font-family: var(--np-font-home);
+  font-weight: 400;
+  font-style: normal;
+  font-synthesis: none;
+}
+
+.np-home-title-latin {
+  font-family: var(--np-font-latin);
+  font-weight: 700;
+  font-style: normal;
+  font-synthesis: none;
+}
+
+.np-game-title {
+  font-family: var(--np-font-game);
+  font-weight: 400;
+  font-style: normal;
+  font-synthesis: none;
+}
